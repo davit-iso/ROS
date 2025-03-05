@@ -1,0 +1,41 @@
+Restaurant Ordering System
+This project simulates a restaurant ordering system where customers can browse a menu, place orders, and view order history. The system follows Object-Oriented Programming (OOP) principles, utilizing inheritance and encapsulation to structure the restaurant's functionality efficiently.
+
+Core Functionalities
+1. Menu Management
+Stores a collection of dishes categorized into appetizers, entrees, and desserts.
+Allows customers to view the menu and select items.
+2. Dish Categorization (Inheritance)
+A base class (Dish) represents a generic dish with common attributes.
+Specialized dish types (Appetizer, Entree, Dessert) inherit from Dish and may include unique attributes or behaviors.
+3. Customer Management
+Stores customer name and contact information.
+Maintains a record of past orders for each customer.
+4. Order Processing
+An order consists of:
+Customer details
+List of selected dishes
+Total price calculation
+Orders are stored and linked to customers.
+5. Order History & Review
+Customers can view their previous orders, including order details and total cost.
+6. Restaurant System Management
+Manages the menu, customers, and order records.
+Provides options for placing orders, reviewing menus, and checking order history.
+
+System Flow
+
+Displaying the Menu
+The system presents a categorized menu (Appetizers, Entrees, Desserts) with prices.
+
+Customer Interaction
+A customer browses the menu and selects dishes.
+If it is their first time, the system records their name and contact information.
+
+Placing an Order
+The customer selects multiple dishes.
+The system calculates the total price.
+The order is stored and linked to the customer's history.
+
+Reviewing Order History
+A customer can request their previous orders, including selected dishes and total cost.
