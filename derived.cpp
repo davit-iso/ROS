@@ -1,4 +1,6 @@
 #include "header.h"
+#include "derived.h"
+#include "dish.h"
 
 Appetizer::Appetizer(std::string dishName, double dishPrice, bool spicy)
 :Dish(dishName,dishPrice),isSpicy(spicy){};

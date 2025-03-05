@@ -128,9 +128,16 @@ void Restaurant::placeNewOrder(const std::string& customerName)
             break;
         }
         Dish* d = menu.getDishByName(tmp);
+        if(d) 
+        {
         ord.addDish(d);
-    }
-    ord.calculateTotal();
+        } 
+        else 
+        {
+            std::cout << "Dish not found!" << std::endl;
+        }       
+        }
+        ord.calculateTotal();
 }
 
 void Restaurant::viewCustomerOrderHistory(const std::string& customerName) const

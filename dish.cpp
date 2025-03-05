@@ -1,4 +1,5 @@
 #include "header.h"
+#include "dish.h"
 
 Dish::Dish(std::string dishName, double dishPrice):name(dishName),price(dishPrice){};
 

@@ -53,6 +53,7 @@ void Order::addDish(Dish* dish)
 
 void Order::calculateTotal()
 {
+    totalPrice = 0;
     for(int i = 0; i < orderedDishes.size(); ++i)
     {
         totalPrice += orderedDishes[i]->getPrice();

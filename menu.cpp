@@ -6,12 +6,9 @@
 
 Menu::Menu(const Menu& other)
 {
-    for(int i = 0; i < other.dishes.size(); ++i)
+    for(auto& d : other.dishes)
     {
-        for(auto& d : other.dishes)
-        {
-            dishes.push_back(new Dish(*d));
-        }
+        dishes.push_back(new Dish(*d));
     }
 }
 
@@ -79,4 +76,5 @@ Dish* Menu::getDishByName(const std::string& dishName) const
             return dishes[i];
         }
     }
+    return nullptr;
 }
