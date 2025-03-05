@@ -4,6 +4,7 @@
 #include "customer.h"
 #include "dish.h"
 
+class Customer;
 class Order {
     private:
         Customer* customer;

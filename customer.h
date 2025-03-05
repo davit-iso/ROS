@@ -3,6 +3,8 @@
 #include "header.h"
 #include "order.h"
 
+class Order;
+
 class Customer {
     private:
         std::string name;

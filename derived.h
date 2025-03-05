@@ -1,6 +1,7 @@
 #ifndef DERIVED
 #define DERIVED
 #include "header.h"
+#include "dish.h"
 
 class Appetizer : public Dish 
 {
