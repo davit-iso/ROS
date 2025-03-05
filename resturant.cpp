@@ -147,3 +147,8 @@ void Restaurant::viewCustomerOrderHistory(const std::string& customerName) const
         customers[i]->viewOrderHistory();
     }
 }
+
+void Restaurant::insertMenu(Menu* menuu)
+{
+    menu = *menuu;
+}

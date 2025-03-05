@@ -22,8 +22,8 @@ class Restaurant {
         Customer* getCustomerByName(const std::string& name);
         void placeNewOrder(const std::string& customerName);
         void viewCustomerOrderHistory(const std::string& customerName) const;
-        
         Customer* searchCustomer(const std::string& customerName);
         void createCustomer(const std::string& customerName, const std::string& contactInfo);
+        void insertMenu(Menu* menuu);
     };
 #endif    
